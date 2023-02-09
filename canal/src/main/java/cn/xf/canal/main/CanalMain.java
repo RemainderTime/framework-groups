@@ -72,7 +72,7 @@ public class CanalMain {
             }
             System.out.println("entry======:" + entry);
             CanalEntry.EventType eventType = rowChage.getEventType();
-
+            //获取变更数据
             System.out.println(String.format("================&gt; binlog[%s:%s] , name[%s,%s] , eventType : %s",
                     entry.getHeader().getLogfileName(), entry.getHeader().getLogfileOffset(),
                     entry.getHeader().getSchemaName(), entry.getHeader().getTableName(),
